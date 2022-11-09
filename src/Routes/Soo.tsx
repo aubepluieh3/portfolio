@@ -9,7 +9,7 @@ const Body = styled.div`
 const Box = styled.div`
   width: 100%;
   border-radius: 30px;
-  height: 600px;
+  height: 100%;
   border: 1px white;
   margin: 50px 50px;
 `;
