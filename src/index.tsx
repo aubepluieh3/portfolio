@@ -60,7 +60,7 @@ body {
   font-weight: 300;
   font-family: "Nunito", sans-serif;
   line-height: 1.2;
-
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 `;

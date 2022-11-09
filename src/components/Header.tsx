@@ -35,7 +35,7 @@ const Wave = styled(motion.span)`
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-color: rgb(46, 209, 255);
+  background-color: white;
 `;
 function Header() {
   const MeMatch = useMatch("/");
