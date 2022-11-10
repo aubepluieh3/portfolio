@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
-const Circle = styled.div`
+export const Circle = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
@@ -73,27 +73,31 @@ function profile() {
       <Circle>
         <span>|</span>
       </Circle>
-      <Box>
-        <Img>
-          <img src={`img/soo.jpg`} />
-        </Img>
-        <ProfileBox>
-          <Name>👩🏻Park Soo Hyun </Name>
-          <Introduce></Introduce>
-          <Info>
-            <a href="mailto:aubepluieh3@naver.com">📧</a>
-            <FontAwesomeIcon
-              icon={faGithub}
-              onClick={() => {
-                window.open("https://github.com/aubepluieh3");
-              }}
-            />
-          </Info>
-        </ProfileBox>
-      </Box>
-      <Box>
-        <ProfileBox></ProfileBox>
-      </Box>
+      <Fade triggerOnce fraction={0.3}>
+        <Box>
+          <Img>
+            <img src={`img/soo.jpg`} />
+          </Img>
+          <ProfileBox>
+            <Name>👩🏻Park Soo Hyun </Name>
+            <Introduce></Introduce>
+            <Info>
+              <a href="mailto:aubepluieh3@naver.com">📧</a>
+              <FontAwesomeIcon
+                icon={faGithub}
+                onClick={() => {
+                  window.open("https://github.com/aubepluieh3");
+                }}
+              />
+            </Info>
+          </ProfileBox>
+        </Box>
+      </Fade>
+      <Fade triggerOnce>
+        <Box>
+          <ProfileBox></ProfileBox>
+        </Box>
+      </Fade>
     </>
   );
 }

@@ -2,11 +2,11 @@ import styled from "styled-components";
 import Profile from "../components/Profile";
 import Typing from "../components/Typing";
 
-const Body = styled.div`
+export const Body = styled.div`
   display: flex;
   margin: 0px 50px;
 `;
-const Box = styled.div`
+export const Box = styled.div`
   width: 100%;
   border-radius: 30px;
   height: 100%;
