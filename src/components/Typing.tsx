@@ -12,7 +12,7 @@ const Typing = () => {
   const [title, setTitle] = useState("");
   const [count, setCount] = useState(0);
   const completionWord =
-    "안녕하세요. 새로운 공기를 받아드리는 것을 좋아하는 개발자 박수현입니다.";
+    "안녕하세요. 새로운 공기를 받아들이는 것을 좋아하는 개발자 박수현입니다.";
 
   useEffect(() => {
     const typingInterval = setInterval(() => {

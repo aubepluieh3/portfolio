@@ -185,7 +185,13 @@ function MyProject() {
               <img src={`img/trello.jpg`} alt="trello" />
             </Img>
             <Title>Trello</Title>
-            <Content>[React]</Content>
+            <Content>
+              [React] Drag&Drop을 이용하여 자유자재로 보드안에서 카드가
+              움직입니다. 선수 교체가 빈번하게 발생하는 야구 스포츠의 특성을
+              활용하여 야구 컨셉으로 프로젝트를 진행했습니다. 새로운 보드를
+              추가할 수 있고, 보드 내에 선수들을 추가하고, 뺄 수 있는 기능을
+              구현하였습니다.
+            </Content>
             <Button>
               <Btn
                 onClick={() =>
