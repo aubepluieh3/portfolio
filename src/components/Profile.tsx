@@ -29,7 +29,10 @@ const ProfileBox = styled.div`
   border-radius: 30px;
   height: 300px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  padding: 15px;
+  padding: 25px;
+  div {
+    font-size: 20px;
+  }
 `;
 const Img = styled.div`
   img {
@@ -45,7 +48,7 @@ const Img = styled.div`
 `;
 
 const List = styled.div`
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
 `;
@@ -59,7 +62,7 @@ const Info = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 30px;
+  font-size: 25px;
   a,
   i {
     text-decoration-line: none;
@@ -85,8 +88,8 @@ function profile() {
             <img src={`img/soo.jpg`} />
           </Img>
           <ProfileBox>
-            <List>👩🏻 Park Soo Hyun </List>
             <Introduce>
+              <List>👩🏻 Park Soo Hyun </List>
               <List>🍰 2000.04.29 </List>
               <List>🏫 순천향대 의료IT공학과 (2019.03~) </List>
               <List>📚 HTML CSS JS TS REACT </List>
@@ -110,7 +113,16 @@ function profile() {
       </Fade>
       <Fade triggerOnce>
         <Box>
-          <ProfileBox></ProfileBox>
+          <ProfileBox>
+            <div>
+              안녕하세요. 프론트엔드 개발자가 되고 싶은 박수현입니다. 많이
+              시도하고 많이 실패하여, 그만큼 성공하는 일도 조금 더 많이 생긴
+              다는 말처럼 꾸준하게 도전하며 살고 싶은 사람입나다. 저는 이거
+              아니면 죽겠다는 생각이 드는 일도 없었고, 이건 정말 죽인다해도 하기
+              싫은 일도 없었습니다. 그래서 그게 뭐든 빨리 찾아야 할 것
+              같았습니다. 하지만 
+            </div>
+          </ProfileBox>
         </Box>
       </Fade>
     </>
