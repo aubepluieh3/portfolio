@@ -56,12 +56,20 @@ table {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  font-weight: 300;
-  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-family:'Cafe24SsurroundAir';
   line-height: 1.2;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+ 
 }
+
 
 `;
 
