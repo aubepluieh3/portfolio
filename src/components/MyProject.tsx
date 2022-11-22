@@ -83,7 +83,7 @@ function MyProject() {
             }}
           >
             <Img>
-              <img src="img/youtube.JPG" alt="youtube"></img>
+              <img src="img/youtube.jpg" alt="youtube"></img>
             </Img>
             <Title>Youtube Clone Coding</Title>
             <Content>
@@ -116,7 +116,7 @@ function MyProject() {
             }}
           >
             <Img>
-              <img src="img/chrome.JPG" alt="chrome"></img>
+              <img src="img/chrome.jpg" alt="chrome"></img>
             </Img>
             <Title>Momentum</Title>
             <Content>
@@ -149,7 +149,7 @@ function MyProject() {
             }}
           >
             <Img>
-              <img src="img/apple.JPG" alt="apple-music"></img>
+              <img src="img/apple.jpg" alt="apple-music"></img>
             </Img>
             <Title>Apple Music</Title>
             <Content>
@@ -182,7 +182,7 @@ function MyProject() {
             }}
           >
             <Img>
-              <img src="img/trello.JPG" alt="trello" />
+              <img src="img/trello.jpg" alt="trello" />
             </Img>
             <Title>Trello</Title>
             <Content>
@@ -217,7 +217,7 @@ function MyProject() {
             }}
           >
             <Img>
-              <img src="img/kakao.JPG" alt="kakao" />
+              <img src="img/kakao.jpg" alt="kakao" />
             </Img>
             <Title>Kakao Clone Coding</Title>
             <Content>
