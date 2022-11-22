@@ -91,7 +91,7 @@ function profile() {
       <Fade triggerOnce fraction={0.3}>
         <Box>
           <Img>
-            <img src={`img/soo.jpg`} />
+            <img src="img/soo.jpg" alt="soo" />
           </Img>
           <ProfileBox>
             <Introduce>
