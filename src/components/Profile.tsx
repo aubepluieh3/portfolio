@@ -91,8 +91,9 @@ function profile() {
       <Fade triggerOnce fraction={0.3}>
         <Box>
           <Img>
-            <img src="img/soo.jpg" alt="soo"></img>
+            <img src={process.env.PUBLIC_URL + "/img/soo.jpg"} alt="soo" />
           </Img>
+
           <ProfileBox>
             <Introduce>
               <List>👩🏻 Park Soo Hyun </List>
@@ -101,6 +102,7 @@ function profile() {
               <List>📚 HTML CSS JS TS REACT </List>
               <List>🤍 Coding Sports Music Book</List>
             </Introduce>
+
             <Info>
               <a href="mailto:aubepluieh3@naver.com">📧</a>
               <span>aubepluieh3@naver.com</span>
