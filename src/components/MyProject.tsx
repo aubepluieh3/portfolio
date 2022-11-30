@@ -1,5 +1,4 @@
 import { Circle } from "./Profile";
-import { Bounce } from "react-awesome-reveal";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
@@ -188,9 +187,9 @@ function MyProject() {
             <Content>
               [THREE.JS] 저의 취미를 소개하는 프로젝트입니다. Three.JS를
               활용하면 모션 효과나 3D를 보다 더 손쉽고, 디테일하게 구현할 수
-              있다는 장점이 있다고 하여 사용해봤습니다. 아직 기본적인
-              수준이지만, 3D 공간을 구현할 수 있다는 점이 공부하는 내내 재밌었고
-              더 배워보고 싶다고 생각하였습니다.
+              있다는 장점이 있다고 하여 사용해 봤습니다. 아직 기초 수준이지만,
+              3D 공간을 구현할 수 있다는 점이 공부하는 내내 재밌었고 더 배워보고
+              싶다고 생각하였습니다.
             </Content>
             <Button>
               <Btn
