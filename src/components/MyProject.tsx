@@ -12,7 +12,7 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 430px);
   grid-template-columns: repeat(2, 400px);
-  gap: 15px;
+  gap: 20px;
   width: 100%;
   height: 1300px;
   justify-content: center;
@@ -182,6 +182,39 @@ function MyProject() {
             }}
           >
             <Img>
+              <img src="img/hobby.gif" alt="three.js" />
+            </Img>
+            <Title>My hobby</Title>
+            <Content>
+              [THREE.JS] 저의 취미를 소개하는 프로젝트입니다. Three.JS를
+              활용하면 모션 효과나 3D를 보다 더 손쉽고, 디테일하게 구현할 수
+              있다는 장점이 있다고 하여 사용해봤습니다. 아직 기본적인
+              수준이지만, 3D 공간을 구현할 수 있다는 점이 공부하는 내내 재밌었고
+              더 배워보고 싶다고 생각하였습니다.
+            </Content>
+            <Button>
+              <Btn
+                onClick={() =>
+                  window.open("https://github.com/aubepluieh3/hobby")
+                }
+              >
+                GitHub
+              </Btn>
+              <Btn
+                onClick={() =>
+                  window.open("https://aubepluieh3.github.io/hobby/")
+                }
+              >
+                Site
+              </Btn>
+            </Button>
+          </Box>
+          <Box
+            whileHover={{
+              scale: 1.1,
+            }}
+          >
+            <Img>
               <img src="img/trello.jpg" alt="trello" />
             </Img>
             <Title>Trello</Title>
@@ -210,7 +243,6 @@ function MyProject() {
             </Button>
           </Box>
 
-          <Box></Box>
           <Box
             whileHover={{
               scale: 1.1,

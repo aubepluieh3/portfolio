@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Fade } from "react-awesome-reveal";
-import { faCakeCandles } from "@fortawesome/free-solid-svg-icons";
 
 export const Circle = styled.div`
   display: flex;
