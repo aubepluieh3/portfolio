@@ -100,11 +100,7 @@ function MyProject() {
               >
                 GitHub
               </Btn>
-              <Btn
-                onClick={() =>
-                  window.open("https://soo-youtube.herokuapp.com/")
-                }
-              >
+              <Btn onClick={() => window.open("https://soo-youtube.fly.dev/")}>
                 Site
               </Btn>
             </Button>
